@@ -7,7 +7,9 @@ export default function App() {
     return (
         <div className="sizesetup">
             <Header />
-            <Meme />
+            <div className="mid">
+                <Meme />
+            </div>
         </div>
     )
 }
